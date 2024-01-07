@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  padding: 16px 0;
+  justify-content: space-between;
+}
+
+.header__block {
+  display: flex;
+  gap: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */
