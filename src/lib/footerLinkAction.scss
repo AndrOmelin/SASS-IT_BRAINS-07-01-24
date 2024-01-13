@@ -1,0 +1,14 @@
+@use './var.scss';
+@use './space.scss';
+
+@mixin footerLinkAction {
+       color: var.color('backgroundDark');
+       padding: 6px 0;
+       font-size: 12px;
+
+
+       &::after {
+        display: block;
+        content: '';
+       }
+}
