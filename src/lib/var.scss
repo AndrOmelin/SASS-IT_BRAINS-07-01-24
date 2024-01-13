@@ -1,6 +1,11 @@
 $colorMap: (
     background: #F5F5F7,
     backgroundDark: #454545,
+    backgroundWhite: #ffffff,
+    whiteLight: #DADADA,
+    fontDark: #1D1D1F,
+    colorLinkOnWhiteBackground: #0066CC,
+    colorLinkOnBlackBackground: #2997FF,
 );
 
 @function color ($key) {
@@ -9,6 +14,7 @@ $colorMap: (
 
 $sizeMap: (
     default: 16px,
+    small: 12px,
 );
 
 @function size ($key: 'default') {
@@ -26,6 +32,6 @@ $screenMap: (
     @return map-get($screenMap, $key);
 }
 
-@function screen ($key: 'default') {
-    @return map-get($contentSizeMap, $key);
-}
+// @function screen ($key: 'default') {
+//     @return map-get($contentSizeMap, $key);
+// }

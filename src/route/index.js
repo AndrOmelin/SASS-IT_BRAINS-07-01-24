@@ -60,6 +60,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/iphone14',
       },
     },
+
     iphone: {
       title: 'iPhone 14',
       descriptions: 'Wonderfull.',
@@ -68,6 +69,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/iphone14',
       },
     },
+
     iwatch: {
       title: 'Watch series 8',
       descriptions: 'A healthy leap ahead.',
@@ -76,6 +78,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/iphone14',
       },
     },
+    
     trade_in: {
       title: 'Trade In',
       descriptions: 'Upgrade and save. It’s that easy.',
@@ -94,6 +97,8 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/wwwdc23',
       },
     },
+
+
     ipad: {
       title: 'Ipad',
       descriptions: 'Lovable. Drawable. Magical.',
@@ -102,6 +107,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/ipad',
       },
     },
+    
     small_business: {
       title: 'Apple for Small Business',
       descriptions: 'Easy. Powerful. Ready to run.',
@@ -110,6 +116,8 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/small-bus',
       },
     },
+
+
     gift: {
       title: 'Take your pick of Mother’s Day gifts.',
       descriptions:
@@ -119,8 +127,9 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/gift',
       },
     },
+
     card: {
-      title: 'card',
+      title: 'Card',
       descriptions:
         'Get up to 3% Daily Cash back with every purchase.',
       link: {
@@ -128,6 +137,7 @@ router.get('/apple', function (req, res) {
         link: 'www.example.com/card',
       },
     },
+
     footer: [
       {
         title: 'Store',
